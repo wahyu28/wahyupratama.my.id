@@ -252,13 +252,16 @@ a {
   color: var(--mainBorderColor-dark);
 }
 
+.card img {
+}
+
 img {
   border-radius: 0.5rem 0.5rem 0 0;
   width: 100%;
   object-fit: cover;
   aspect-ratio: 4/3;
-  height: max(10rem, 30vh);
-  max-height: max(10rem, 30vh);
+  /* height: max(10rem, 30vh); */
+  /* max-height: max(10rem, 30vh); */
 }
 
 img ~ * {
